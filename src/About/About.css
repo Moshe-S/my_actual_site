@@ -1,0 +1,48 @@
+.site{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-areas:"header header"
+                        "main sidebar"
+                        "main sidebar"
+                        "footer footer";
+    grid-gap:10px; 
+    margin:20px; 
+    padding:10px; 
+    border:solid 2px #000;  
+  }
+
+  .site > *{
+    padding:30px; 
+    color:#fff; 
+    font-size:20px;}
+
+  .mastheader{
+    background:#b46ae3; 
+    grid-area:header;}
+
+  .page-title{
+    background:#51a7fa; 
+    grid-area:title;}
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    background:#70bf40; 
+    grid-area:main;
+    min-height:500px;}
+
+  .sidebar{
+    background:#f49018; 
+    grid-area:sidebar;}
+
+  .footer{
+    background:#0265c0; 
+    grid-area:footer;}
+  
+  
+  .site:before{
+    content:".site"; 
+    position:absolute; 
+    left:20px; top:2px; 
+    font-weight:bold; 
+    font-family:arial;}
