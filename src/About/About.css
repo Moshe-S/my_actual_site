@@ -27,7 +27,7 @@
   .main-content{
     display: flex;
     flex-direction: column;
-    background:#70bf40; 
+    background:rgb(4, 170, 109); 
     grid-area:main;
     min-height:500px;}
 
