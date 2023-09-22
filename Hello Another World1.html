@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="./Hello Another World1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap">
     <title>Moshe's Site</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
     <!-- nav bar -->
     <header>
         <!-- logo -->
-        <a><img src="./images/firstphoto.jpg" alt="my cool logo" class="header_icon"></a>
+        <a><img src="./images/mylogo.png" alt="my cool logo" class="header_icon"></a>
         <div id="navcardiv">
             <ul id="navbar">
                 <li><a>דף הבית</a></li>
@@ -21,27 +22,104 @@
             </ul>
         </div>    
         <!-- login icon -->
-        <a><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle header_icon" viewBox="0 0 16 16">
+        <!-- <a><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle header_icon" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-          </svg></a>
+          </svg></a> -->
     </header>
     
+    <div id="empty_space"><br></div>
+
+
+    <!-- welcome -->
     <main>
         <div id="weldiv">
-            <img/>
+            <!-- my photo -->
+            <img src="./images/moshest.png" alt="my photo" class="my_photo"/>
             <h1 id="welcome">ברוכות.ים הבאות.ים</h1>
-        </div>
-
-        <div id="why">
-            <svg>
-            </svg>
-            <a>למה צריך כזה אתר?</a>
-            <svg>
-            </svg>
         </div>
     </main>
 
+
+    <!-- what is this site, with icons, short explanation about that sit and how to use it -->
+    <div id="why">
+        <h2>start</h2>
+
+        <div class="grid"><a>מה האתר הזה:</a></div>
+
+        <!-- why we need that site -->
+        <div class="grid"> <p>למה</p></div>
+
+        <!-- how to use the site -->
+        <div class="grid"> <a href="">איך להשתמש באתר</a></div>
+
+        <!-- what is programming -->
+        <div class="grid"><a href="">בקצרה, מה זה תכנות? הסבר בסיסי:</a></div>
+
+        <!-- simple game to understand if i want to learn to code -->
+        <div class="grid"><a href="">האם תכנות מתאים לי?</a></div>
+
+        <!-- link to shorts explanations about the thec world -->
+        <div class="">לדף הסברים על מחשבים, תוכנות, אינטרנט ואיך הדברים עובדים</div> 
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="feedback">
+        <!-- very short about me, peoples comments -->
+        <div class="about_me"><p>about me + comments</p></div>
+        <br>
+
+        <!-- feedback -->
+        <div class="contant_form"><p>דירוג חיובי בלבד</p></div>
+            <br>
+
+            <form>
+              <input type="text" id="fname" placeholder="Full Name"><br>
+              <br>
+              <input type="text" id="job" placeholder="Occupation">
+              <br>
+
+              <br>
+
+              <h4>Rate my site</h4>
+              <br>
+
+            
+              <div action="/action_page.php">
+                <label for="stars">stars (between 0 and 5):</label>
+                <input type="range" id="stars" name="stars" min="0" max="5">
+                
+              </div>
+              <br>
+              <br>
+              
+              <text>
+            <h4>feedback </h4>
+            <input type="text" id="feedback" name="feedback" maxlength="70"><br><br>
+            </text>
+            <br>
+                <input type="submit">
+              
+             <form>
+                <br>
+                <br>
+                <br>
+                <br> <br>
+                <br>
+                <br>
+                <br>
+
+            
+
+        <!-- שם מלא, מקצוע, דירוג ופידבק חיובי, תוכן -->
+
+    </div>
+    
+    
+<!-- footer with link to quik contact -->
     <footer>
         <p>©Moshe Siman Tov</p>
     </footer>
