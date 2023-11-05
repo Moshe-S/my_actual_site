@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="./Hello Another World1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap">
     <title>Moshe's Site</title>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
 </head>
+
 <body>
-    <!-- nav bar -->
+    <!-- nav bar --> 
     <header>
         <!-- logo -->
-        <a><img src="./images/mylogo.png" alt="my cool logo" class="header_icon"></a>
-        <div id="navcardiv">
-            <ul id="navbar">
-                <li><a>דף הבית</a></li>
-                <li><a>אודות</a></li>
-                <li><a>אתרים בעברית</a></li>
-                <li><a>אתרים באנגלית</a></li>
+        <a><img src="../../images/mylogo.png" alt="my cool logo" class="header_icon hover"></a>
+        <div class="navcardiv">
+            <ul class="navbar">
+                <li><a href="#" class="nav-button">דף הבית</a></li>
+                <li><a href="../About/About.html" target="_blank" class="nav-button">אודות</a></li>
+                <li><a href="../SitePage/h_site_page.html" target="_blank" class="nav-button">אתרים בעברית</a></li>
+                <li><a href="../SitePage/SitePage.html" target="_blank" class="nav-button">אתרים באנגלית</a></li>
             </ul>
         </div>    
         <!-- login icon -->
@@ -33,34 +34,37 @@
 
     <!-- welcome -->
     <main>
-        <div id="weldiv">
+        <!-- <div id="weldiv"> -->
             <!-- my photo -->
-            <img src="./images/moshest.png" alt="my photo" class="my_photo"/>
-            <h1 id="welcome">ברוכות.ים הבאות.ים</h1>
-        </div>
+        <div><img src="../../images/moshest.png" alt="my photo" class="my_photo"/></div>
+
+        <div class="welcome"><h1>ברוכות.ים הבאות.ים</h1></div>
+     
+        <!-- </div> -->
     </main>
 
 
-    <!-- what is this site, with icons, short explanation about that sit and how to use it -->
-    <div id="why">
-        <h2>start</h2>
+    <h2 class="start">start</h2>
 
-        <div class="grid"><a>מה האתר הזה:</a></div>
+    <!-- what is this site, with icons, short explanation about that site and how to use it -->
+    <div class="why">
+
+        <div class="grid hover"><a>מה האתר הזה:</a></div>
 
         <!-- why we need that site -->
-        <div class="grid"> <p>למה</p></div>
+        <div class="grid hover"> <p>למה</p></div>
 
         <!-- how to use the site -->
-        <div class="grid"> <a href="">איך להשתמש באתר</a></div>
+        <div class="grid hover"> <a href="">איך להשתמש באתר</a></div>
 
         <!-- what is programming -->
-        <div class="grid"><a href="">בקצרה, מה זה תכנות? הסבר בסיסי:</a></div>
+        <div class="grid hover"><a href="">בקצרה, מה זה תכנות? הסבר בסיסי:</a></div>
 
         <!-- simple game to understand if i want to learn to code -->
-        <div class="grid"><a href="">האם תכנות מתאים לי?</a></div>
+        <div class="grid hover"><a href="">האם תכנות מתאים לי?</a></div>
 
         <!-- link to shorts explanations about the thec world -->
-        <div class="">לדף הסברים על מחשבים, תוכנות, אינטרנט ואיך הדברים עובדים</div> 
+        <div class="hover">לדף הסברים על מחשבים, תוכנות, אינטרנט ואיך הדברים עובדים</div> 
 
     </div>
 
@@ -126,3 +130,8 @@
    
 </body>
 </html>
+
+
+
+
+
